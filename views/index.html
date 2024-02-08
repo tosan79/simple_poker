@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple poker game</title>
+    <script defer src="./index.js"></script>
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+    <style>
+        * {
+            background-color: black;
+            color: #ff0bff
+        }
+        .rectangle {
+            background: #ff0bff;
+            color: black;
+            border: 1px solid #999;
+            float: left;
+            font-size: 24px;
+            font-weight: bold;
+            line-height: 34px;
+            height: 160px;
+            margin-right: -1px;
+            margin-top: -1px;
+            padding: 0;
+            text-align: center;
+            width: 90px;
+        }
+        .board-row:after {
+            clear: both;
+            content: "";
+            display: table;
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+</body>
+</html>
