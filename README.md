@@ -1,6 +1,4 @@
-[projekt na weppo]
-
-aby uruchomić należy wydać polecenia:
+to run the program, execute the following commands:
 
 `npm install`
 
